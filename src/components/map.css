@@ -1,0 +1,20 @@
+.map{
+     margin-top: 2%;
+    margin-bottom: 2%;
+    /* margin-left: 25%;  */
+    border: 5px solid black;
+}
+.map-small{
+    display: none;
+}
+@media only screen and (max-width: 620px) {
+    .map-lg{
+        display: none;
+    }
+    .map-small{
+        display: block;
+    }
+    .map{
+        border: 5px solid black;
+    }
+}

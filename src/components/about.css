@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.container-about{
+    width: 99%;
+    height: 106vh;
+    background-color: white;
+    border: 5px solid black;
+}
+.mini-about{
+    height: 106vh;
+    display: flex;
+}
+.about-info{
+    width: 100%;
+    border-right: 5px solid black;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.mini-info{
+    width: 100%;
+    justify-content: center;
+    margin:0 auto;
+}
+.about-header{
+    color: black;
+    font-family: 'Dela Gothic One', cursive;
+    font-weight: 300;
+    font-size: 3rem;
+    margin-left: 1%;
+    text-decoration: underline;
+}
+.about-us{
+    color: black;
+    font-family: 'Dela Gothic One', cursive;
+    font-weight: 300;
+    font-size: 3rem;
+}
+.about-address{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    opacity: 0.8;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+.thanks{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    opacity: 1;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+.about-mail{
+text-decoration: underline;
+font-family: 'Poppins', sans-serif;
+color: black;
+font-weight: 100;
+margin-bottom: 10%;
+
+}
+.about-btn{
+width: 150px;
+height: 40px;
+border-radius: 0px;
+border: 2px solid black;
+}
+.call{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    position: relative;
+    top: -30%;
+}
+.about-image{
+    width: 100%;
+    background-image: url('../assets/images/2.jpg');
+    background-position-x:10%;
+    background-size: cover;
+}
+@media only screen and (max-width: 620px){
+    .about-us{
+        color: red;
+        font-family: 'Dela Gothic One', cursive;
+        font-weight: 300;
+        font-size: 3rem;
+    }
+    .container-about{
+        width: 98%;
+        height: 175vh;
+        background-color: white;
+        border: 5px solid black;
+    }
+    .mini-about{
+        height: 106vh;
+        display: block;
+    }
+    .about-info{
+        width: 100%;
+        border-right: 5px solid black;
+        height: 100%;
+        display: block;
+        flex-direction: column;
+    }
+    .mini-info{
+        width: 100%;
+        justify-content: center;
+        margin:0 auto;
+        height: 60%;
+    }
+    .about-header{
+        color: black;
+        font-family: 'Dela Gothic One', cursive;
+        font-weight: 300;
+        font-size: 2rem;
+        margin-left: 1%;
+        text-decoration: underline;
+    }
+    .about-us{
+        color: black;
+        font-family: 'Dela Gothic One', cursive;
+        font-weight: 300;
+        font-size: 1rem;
+    }
+    .about-address{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 100;
+        opacity: 0.8;
+        margin-bottom: 1%;
+        margin-left: 1%;
+        font-size: 0.85rem;
+    }
+    .thanks{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 100;
+        opacity: 1;
+        margin-bottom: 1%;
+        margin-left: 1%;
+        font-size: 1rem;
+    }
+
+    .about-image{
+        width: 100%;
+        height: 64vh;
+        background-image: url('../assets/images/full.jpg');
+        background-position-y:-20%;
+        background-size: cover;
+    }
+}

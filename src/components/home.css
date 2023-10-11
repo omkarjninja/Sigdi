@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+h1{
+    font-family: 'Dela Gothic One', cursive;
+    position: absolute;
+    color: white;
+    font-size: 10rem;
+    top:10%;
+    left:25%
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/images/bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.btn{
+    width: 20%;
+    position: relative;
+    left: 40%;
+    top: 70%;
+    background-color: transparent;
+    border: 1px solid white;
+    transition: background-color 10ms ease-in-out;
+}
+.btn-h2{
+    color: white;
+    font-family: 'Dela Gothic One', cursive;
+    transition: color 10ms ease-in-out;
+}
+.btn:hover{
+    background-color: white;
+}
+.btn:hover:hover h2{
+    color: black;
+}
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    h1{
+        position: absolute;
+        font-size: 5rem;
+        top:20%;
+        left:18%
+    }
+    .btn{
+        width: 30%;
+        position: relative;
+        left: 35%;
+        top: 60%;
+    }
+    }

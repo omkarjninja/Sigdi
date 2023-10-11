@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.main-rating{
+    width: 100%;
+    height: 25vh;
+}
+.rating{
+    width: 99%;
+    height: 100%;
+    background-color: white;
+    border: 5px solid black;
+    border-top: 0px solid white;
+    display: flex;
+    justify-items: center;
+}
+/* .rating-link{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    justify-items: center;
+    position: relative;
+    top: 1.4rem;
+    left: 0.7rem;
+    text-decoration: none;
+    transition: text-decoration 10s ease-in-out;
+}
+.rating-head{
+    color: black;
+    font-size: 1.7rem;
+    margin-right: 34%;
+    font-family: 'Dela Gothic One', cursive;
+}
+.rating:first-child{
+    margin-right: 30%;
+}
+.first-link{
+    margin-right: 38%;
+}
+.rating{
+    margin: 0;
+}
+.rating-link:hover{
+    text-decoration: underline;
+} */
+.rating-box{
+    width: 30%;
+    background-color: red;
+}
+.rating-one{
+    margin-left: 5%;
+}
+ @media only screen and (max-width: 620px) {
+    .main-rating{
+        width: 99%;
+        height: 25vh;
+    }
+    .rating{
+        width: 99%;
+        height: 100%;
+        background-color: white;
+        border: 5px solid black;
+        border-top: 5px solid black;
+        display: flex;
+        justify-items: center;
+    }
+     }
+    

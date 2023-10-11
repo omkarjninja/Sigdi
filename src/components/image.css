@@ -1,0 +1,71 @@
+.container-image{
+    width: 33%;
+    height: 80vh;
+    background-image: url("../assets//images/2.jpg");
+    border: 5px solid black;
+    background-position: center;
+    background-size: cover;
+}
+.one{
+    background-image: url("../assets//images/2.jpg");
+}
+.two{
+    background-image: url("../assets//images/3.jpg");
+}
+.three{
+    background-image: url("../assets//images/4.jpg");
+}
+.four{
+    background-image: url("../assets//images/5.jpg");
+}
+.five{
+    background-image: url("../assets//images/6.jpg");
+}
+.six{
+    background-image: url("../assets//images/7.jpg");
+}
+.seven{
+    background-image: url("../assets//images/8.jpg");
+}
+.eight{
+    background-image: url("../assets//images/17.jpg");
+}
+.nine{
+    background-image: url("../assets//images/10.jpg");
+}
+.ten{
+    background-image: url("../assets//images/11.jpg");
+}
+.aa{
+    background-image: url("../assets//images/12.jpg");
+}
+.bb{
+    background-image: url("../assets//images/13.jpg");
+}
+.cc{
+    background-image: url("../assets//images/14.jpg");
+}
+.dd{
+    background-image: url("../assets//images/15.jpg");
+}
+.ee{
+    background-image: url("../assets//images/16.jpg");
+}
+.ff{
+    background-image: url("../assets//images/17.jpg");
+}
+ @media only screen and (max-width: 620px) {
+  .three,.six,.nine,.bb,.ee{
+    display: none;
+  }
+  .container-image{
+    width: 50%;
+    height: 60vh;
+    border: 5px solid black;
+    background-position: center;
+    background-size: cover;
+}
+.one,.four,.seven,.ten,.cc{
+    border-right: 0px solid white;
+  }
+     }

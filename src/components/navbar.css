@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.main-navbar{
+    width: 100%;
+    height: 15vh;
+}
+.navbar{
+    width: 99%;
+    background-color: white;
+    border: 5px solid black;
+    display: flex;
+    justify-items: center;
+}
+.navbar-link{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    justify-items: center;
+    position: relative;
+    top: 1.4rem;
+    left: 0.7rem;
+    text-decoration: none;
+    transition: text-decoration 10s ease-in-out;
+}
+.navbar-head{
+    color: black;
+    font-size: 1.7rem;
+    margin-right: 34%;
+    font-family: 'Dela Gothic One', cursive;
+}
+.navbar:first-child{
+    margin-right: 30%;
+}
+.first-link{
+    margin-right: 38%;
+}
+.navbar{
+    margin: 0;
+}
+.navbar-link:hover{
+    text-decoration: underline;
+}
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .navbar-link{
+        font-size: 1rem;
+        position: relative;
+        top: 1.1rem;
+        left: 0.7rem;
+    }
+    .navbar-head{
+        font-size: 1.2rem;
+        margin-right: 20%;
+    }
+    .first-link{
+        margin-right: 28%;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .navbar{
+        margin: 0;
+    }
+    .main-navbar{
+        width: 100%;
+        height: 15vh;
+        margin-bottom: 0%;
+    }
+    .navbar{
+        width: 98%;
+        background-color: white;
+        border: 5px solid black;
+        display: flex;
+        justify-items: center;
+    }
+}

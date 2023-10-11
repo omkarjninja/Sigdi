@@ -1,0 +1,71 @@
+.footer-body{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+.media{
+    width: 65px;
+    height: 65px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+.media img{
+    position: relative;
+    top: 19px;
+    left: 19px;
+    color: white;
+    mix-blend-mode: color-burn;
+}
+.soc-media{
+    width: 25px;
+}
+.fb{
+    width: 20px;
+}
+.socials{
+    display: flex;
+    margin-left: 38%;
+}
+.footer-all{
+    display: flex;
+}
+.media:hover {
+    box-shadow: 0 0 5px 0 black inset, 0 0 10px 1px black;
+    /* border: 3px solid black; */
+  }
+@media (max-width: 620px){
+    .footer-body{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 50%;
+    }
+    .socials{
+       margin: 0 auto;
+       margin-left: 40%;
+       width: 100%;
+    }
+    .media{
+        width: 45px;
+        height: 45px;
+        background-color: transparent;
+        border: 1px solid #4682A9;
+        border-radius: 100%;
+        margin-left: 10px;
+    }
+    .media img{
+        position: relative;
+        top: 12px;
+        left: 12px;
+        color: white;
+        mix-blend-mode: color-burn;
+    }
+    .soc-media{
+        width: 20px;
+    }
+    .footer-all{
+        display: flex;
+        width: 100%;
+    }
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+.about-head{
+    color: black;
+    font-family: 'Dela Gothic One', cursive;
+    font-weight: 300;
+    font-size: 3rem;
+    margin-left: 1%;
+}
+.about-us{
+    color: black;
+    font-family: 'Dela Gothic One', cursive;
+    font-weight: 300;
+    font-size: 3rem;
+   
+}
+.contact-block{
+    width: 60%;
+    background-color: black;
+    height: 100vh;
+    border: 5px solid white inset;
+    margin-bottom: 4%;
+}
+.contact-methods{
+    height: 20%;
+}
+h4{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+h5{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-decoration: underline;
+    cursor: pointer;
+}
+h6{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1%;
+    text-decoration: underline;
+    cursor:pointer;
+}
+.first-block{
+    padding-top: 8%;
+}

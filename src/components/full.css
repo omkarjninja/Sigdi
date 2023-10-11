@@ -1,0 +1,58 @@
+.container-full{
+    width: 99%;
+    height: 50vh;
+    background-image: url("../assets/images/full.jpg");
+    border: 5px solid black;
+    border-top: 0px solid white;
+    background-position: center;
+    background-size: cover;
+}
+
+.container-name{
+    width: 99%;
+    height: 15vh;
+    background-color: white;
+    border: 5px solid black;
+    border-top: 0px solid white;
+}
+.new-container{
+    border-top: 5px solid black;
+}
+.full-head{
+    margin: 0%;
+    color: black;
+    font-family: 'Dela Gothic One', cursive;
+    font-weight: 300;
+    font-size: 2rem;
+    opacity: 1;
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+@media only screen and (max-width: 620px) {
+    .container-full{
+        width: 98%;
+    }
+    .full-head{
+        margin: 0%;
+        color: black;
+        font-family: 'Dela Gothic One', cursive;
+        font-weight: 300;
+        font-size: 1.75rem;
+        opacity: 1;
+        text-align: center;
+        position: relative;
+        top: 20%;
+    }
+    .container-name{
+        width: 98%;
+        height: 15vh;
+        background-color: white;
+        border: 5px solid black;
+        
+    }
+    .not-full-head{
+        font-size: 1.3rem;
+    }
+
+}
