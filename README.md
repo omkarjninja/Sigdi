@@ -75,5 +75,3 @@ If you have any questions or need further information, feel free to reach out to
 Enjoy exploring the world of Sigdi Restaurant!
 
 ```
-
-Make sure to replace `[Your Email Address]`, `[yourusername]`, and other placeholders with your actual information. Additionally, consider including relevant images, badges, or links as needed for your specific project.
